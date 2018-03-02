@@ -1,0 +1,107 @@
+.real{
+	background-color: black;
+	border-style: solid;
+	float: left;
+	width: 100vw;
+	height : 20vh;
+	margin-top: 1%;
+	padding-top: 60px;
+	padding-left: 50px;
+	animation: slide;
+	-webkit-animation-duration: 20s;
+	-webkit-animation-iteration-count: infinite;
+}
+@keyframes slide{
+	25% {
+background-color: black;
+	}
+	50% {
+background-color: yellow;
+	}
+	75% {
+background-color: red;
+	}
+	100% {
+background-color: pink;
+	}
+}
+.right{
+	float: right;
+	margin-top: -140px;
+	margin-right: 80px;
+}
+
+   .section1{background-color: none;
+   	width: 1270px;
+   	border: 15px solid green;
+   	padding: 20px;
+   	margin-top: 25px;
+   	height: 800px;
+}
+.politics{
+	background-color: white;
+	float: left;
+	width: 33%;
+	
+}
+#entertainment{
+	float: left;
+	width: 35.5%;
+	background-color: white;
+
+}
+.sports{
+	background-color: white;
+	float: left;
+	width: 33%;
+}
+ .mainnews{
+ 	/*border-style: solid;*/
+ 	float: right;
+	width: 60%;
+	/*background-color: grey;*/
+}
+.papa{
+	border-style: solid;
+	background-color: grey;
+	padding: 60px;
+}
+.papa3{
+	background-color: black;
+	width: 35%;
+	float: left;
+	margin-right: 20px;
+	padding-right: 1000px;
+	padding-left: 200px;
+	clear: both;
+
+}
+.headlinenews1{  
+	border-style: solid;
+	background-color: grey;
+	border-color: black;
+
+}
+.papa4{
+	width: 40%;
+	margin-right: 20px;
+	clear: both;
+	text-align: center;
+}
+.pray{
+	background-color: blue;
+	text-decoration: none;
+
+
+}
+a{
+	text-decoration-color: none;
+	text-decoration: none;
+	color: red;
+}
+@media no screen and (max-width: 700px){
+  .all{
+  	width: 100%;
+  }
+}
+}
